@@ -49,7 +49,6 @@ class ViewController: UIViewController ,UINavigationControllerDelegate, UIImageP
             present(controller, animated: true, completion: nil)
         }
     }
-    
     //取得した画像を処理する
     //String?
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
