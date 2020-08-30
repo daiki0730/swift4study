@@ -20,7 +20,6 @@ class ViewController: UIViewController ,UINavigationControllerDelegate, UIImageP
     }
     
     @IBOutlet weak var photoImage: UIImageView!
-   
     //カメラが起動してるか、ユーザーがカメラの仕様を許可してるか確認
     @IBAction func cameraLaunchAction(_ sender: Any) {
         if UIImagePickerController.isSourceTypeAvailable(.camera) {
